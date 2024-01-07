@@ -4,10 +4,11 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-image: url('Imagenes/fondo.jpeg');
+    background-image: url('Imagenes/fondo2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     font-family: 'Poppins', sans-serif;
 
     scroll-behavior: smooth;
@@ -170,14 +171,17 @@ h2, p {
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
     margin: 20px 0 0;
-
-    text-decoration: underline;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000;
 }
 
 .first-section__txt p{
     font-weight: bold;
     font-size: 25px;
     margin: 0;
+
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000;
 }
 
 .first-section__cercles {
@@ -195,7 +199,9 @@ h2, p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #000000;
+    font-size: 18px;
 
     background-color: #000000b6;
     height: 150px;
@@ -204,8 +210,27 @@ h2, p {
     border-radius: 50%;
     border: 2px solid #000;
     box-shadow: 0px 0px 5px #000;
+
+    outline: none;
 }
 
+.first-section__cercles-1 {
+    background-image: url(Imagenes/primera.jpeg);
+}
+
+.first-section__cercles-2 {
+    background-image: url(Imagenes/segunda.jpeg);
+}
+
+.first-section__cercles a {
+    text-decoration: none;
+}
+
+.first-section__cercles-1:focus,
+.first-section__cercles-2:focus {
+    border: 2px solid #3498db; /* Cambia el color del borde al enfocarse */
+    border-radius: 50%;
+}
 
 
 
@@ -316,6 +341,9 @@ h2, p {
     border-radius: 8px;
     border: 2px solid #000;
     box-shadow: 0px 0px 5px #ffffff4f;
+    text-decoration: none;
+    color: #000;
+    text-shadow: 1px 1px 0px #a5a5a5;
 }
 
 .third-section__button-a {
