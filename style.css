@@ -607,3 +607,126 @@ footer {
         display: none;
     }
 }
+
+
+@media (min-height: 1100px) {
+
+
+    .header-container {
+        height: 130px;
+        margin-top: -5px;
+    }
+
+    .header-li-dekstop a {
+        font-size: 35px;
+    }
+
+    .header-logo img {
+        width: 100px;
+        margin-left: 50px;
+    }
+
+
+    .header-menu {
+        height: 70px;
+    }
+
+    .header-li {
+        top: 120px;
+    }
+
+    .header-li-a {
+        font-size: 35px;
+    }
+
+    #trabajo {
+        scroll-margin-top: 110px;
+    }
+
+
+
+
+
+
+
+    .first-section__txt {
+        margin-top: 70px;
+    }
+
+    .first-section__txt h1 {
+        font-size: 100px;
+    }
+
+    .first-section__txt p {
+        font-size: 50px;
+    }
+
+
+    .first-section__cercles-1, 
+    .first-section__cercles-2,
+    .first-section__cercles-3 {
+        min-width: 350px;
+        min-height: 350px;
+    }
+
+    .first-section__cercles-1 p,
+    .first-section__cercles-2 p,
+    .first-section__cercles-3 p {
+        font-size: 35px;
+    }
+
+
+
+
+
+    .second-section h2 {
+        font-size: 35px;
+        margin: 5px;
+    }
+
+    .second-section p {
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    .second-section__first-txt, 
+    .second-section__second-txt {
+        max-width: 1000px;
+    }
+
+
+
+
+
+
+    .third-section header {
+        height: 100px;
+    }
+
+    .third-section h2 {
+        font-size: 40px;
+    }
+
+    .third-section__button a {
+        padding: 20px 45px;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+    .footer-redes p {
+        font-size: 35px;
+    }
+
+    .footer-redes__img img {
+        height: 50px;
+    }
+
+    .footer-logo p {
+        font-size: 30px;
+    }
+}
