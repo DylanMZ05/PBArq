@@ -187,6 +187,38 @@ footer {
 }
 
 
+@media (min-height: 1100px) {
+    .header-container {
+        height: 130px;
+    }
+
+    .header-logo img {
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .header-menu button {
+        font-size: 35px;
+    }
+
+
+
+
+    .first-section__title {
+        margin-top: 150px;
+        height: 100px;
+    }
+
+    .first-section__title p {
+        font-size: 35px;
+    }
+
+    .imagen {
+        max-width: 1000px;
+    }
+}
+
+
 /* ANIMACIONES */
 
 .animation{
