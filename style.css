@@ -382,8 +382,6 @@ h2, p {
 footer {
     background-color: #000;
 
-    height: 30vh;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -397,7 +395,7 @@ footer {
     justify-content: center;
     
     color: #fff;
-    margin: 10px 0 0;
+    margin: 20px 0;
     font-size: 20px;
     font: bold;
 }
@@ -417,14 +415,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-bottom: 10px;
 }
 
 .footer-logo p {
     color: #fff;
     font-size: 18px;
     margin: 0;
+    margin: 20px 0;
 }
 
 
@@ -598,4 +595,12 @@ footer {
         display: none;
     }
 
+}
+
+
+@media (max-height: 550px) {
+    .first-section__cercles-1,
+    .first-section__cercles-2 {
+        display: none;
+    }
 }
