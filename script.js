@@ -1,19 +1,7 @@
-let currentIndex = 0;
-const totalSlides = document.querySelectorAll('.slide').length;
+const hamburger = document.getElementById('hamburger');
+const menu = document.getElementById('menu');
 
-function showSlide(index) {
-  const slider = document.querySelector('.slider');
-  const slideWidth = document.querySelector('.slide').clientWidth;
-  slider.style.transform = `translateX(-${index * slideWidth}px)`;
-}
-
-function nextSlide() {
-  currentIndex = (currentIndex + 1) % totalSlides;
-  showSlide(currentIndex);
-}
-
-function prevSlide() {
-  currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-  showSlide(currentIndex);}
-
-  
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    menu.classList.toggle('active');
+});
